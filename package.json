@@ -1,0 +1,27 @@
+{
+  "name": "hackcamp.react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^4.0.0-beta",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-form": "^7.0.4",
+    "remove-trailing-separator": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.4.4",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "lint": "node_modules/eslint/bin/eslint.js src/App.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
