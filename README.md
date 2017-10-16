@@ -19,8 +19,8 @@ He wrote some notes for you before leaving with a list of tasks.
 
 First off, you will need to clone the project:
 ```bash
-git clone https://github.com/hackages/hackcamp-react.git
-cd hackcamp.react
+git clone git@github.com:hackages/hackcamp-react-bhack-to-school.git
+cd hackcamp-react-bhack-to-school
 yarn
 yarn start
 
