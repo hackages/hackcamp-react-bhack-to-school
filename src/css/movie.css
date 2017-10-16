@@ -32,7 +32,7 @@
   bottom: 0px;
 }
 
-.movie:hover .movie-body{
+.movie-body .show-movie-body {
   bottom: 0px;
 }
 .movie-body .btn-link{
