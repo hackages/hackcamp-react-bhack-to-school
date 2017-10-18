@@ -4,6 +4,15 @@ export const initialState = {
   token: null
 };
 
-export const auth = () => {
-  return null;
+const reducer = {
+  [LOGIN]: token => ({
+    loggedIn: true,
+    token
+  }),
+  [LOGOUT]: () => initialState
+};
+
+export const auth = (state = initialState, action) => {
+  const handler = reducer[action.type];
+  return handler ? handler(action.payload) : state;
 };

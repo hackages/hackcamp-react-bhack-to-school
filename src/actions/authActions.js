@@ -1,9 +1,12 @@
 import {LOGIN, LOGOUT} from '../constants/actions';
 
 /**
- * @param authToken: token used to authenticate yourself when communicating with the remote server
+ * @param payload: auth token
  */
-export const login = () => {};
+export const login = payload => ({
+  type: LOGIN,
+  payload
+});
 
 export const logout = () => ({
   type: LOGOUT
